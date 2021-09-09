@@ -1,5 +1,5 @@
 define(['../utils/utils'], function (Utils) {	
-    
+
 	var verEstadoToldoView = Backbone.View.extend({
         nameTemplate:"tplVerEstadoToldo",
         template: function(){
@@ -43,9 +43,9 @@ define(['../utils/utils'], function (Utils) {
             
         },
         nombreWiFi:function(){
-            window.WifiWizard2.getConnectedSSID().then(function(SSID){
+            /*window.WifiWizard2.getConnectedSSID().then(function(SSID){
                 $("#WifiName").html(SSID);
-            });
+            });*/
         },
         getUltimoEstado:function(){
             var idSpan=ultimoEstado;

@@ -1,4 +1,9 @@
-define(['../utils/utils'], function (Utils) {	
+define([
+	'jquery',
+    'underscore',
+    'backbone',
+    '../utils/utils'
+	], function ($, _, Backbone, Utils) {
 	
     var muestraToldoView = Backbone.View.extend({
         nameTemplate:"tplHome",
