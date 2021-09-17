@@ -16,6 +16,7 @@ define([
         routes:{
             "":"home",
             "home":"home",
+            "pjPersonas":"pagePersonas",
             "pageRegar":"fnPageRegar",
             "page2":"page2",
             "pageToldo":"fnPageToldo",
@@ -46,6 +47,9 @@ define([
         },
         fnPageRegar:function(){
             this.changePage2(new pgRiegoView());
+        },
+        fnVerEstadoToldo: function(){
+            this.changePage2(new pgVerEstadoToldoView());
         },
         fnVerEstadoToldo: function(){
             this.changePage2(new pgVerEstadoToldoView());

@@ -8,9 +8,9 @@
         <div data-role="tabs" id="tabs">
           <div data-role="navbar">
             <ul>
-                <li><a href="#personas" data-ajax="false">Personas</a></li>
-                <li><a href="#autobuses" data-ajax="false">Autobuses</a></li>
-                <li><a href="#alojamientos" data-ajax="false">Alojamientos</a></li>
+                <li id="btnPersonas"><a href="" data-ajax="false">Personas</a></li>
+                <li id="btnAutobuses"><a href="" data-ajax="false">Autobuses</a></li>
+                <li id="btnAlojamientos"><a href="" data-ajax="false">Alojamientos</a></li>
             </ul>
           </div>
             <div id="personas" class="ui-body-d ui-content"></div>
